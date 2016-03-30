@@ -82,6 +82,9 @@ h2.special {
   text-align: center;
   text-transform: uppercase; }
 
+h2.special.secondary {
+  border: none; }
+
 h1.special {
   color: #222;
   font: 800 50px/50px 'open sans';
@@ -1338,30 +1341,40 @@ a.special-hover:hover:after {
   width: 100%;
   background: #654E75; }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 412px) {
   a.button {
     width: 100%;
     text-align: center;
     margin-bottom: 8px; } }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 412px) {
   a.special-hover {
     width: 100%;
     text-align: center;
     margin-left: 0; } }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 412px) {
   .mobile-center {
     text-align: center; } }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 412px) {
   footer .align-left {
     text-align: center !important; } }
+
+@media only screen and (max-width: 412px) {
+  .mobile-hide {
+    display: none; } }
+
+.mobile-reveal {
+  display: none; }
+  @media only screen and (max-width: 412px) {
+    .mobile-reveal {
+      display: block; } }
 
 .burger {
   display: none; }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 412px) {
   header#top {
     height: 47px;
     padding: 0px; }
@@ -1372,9 +1385,10 @@ a.special-hover:hover:after {
     header#top .burger {
       font-size: 30px;
       cursor: pointer;
-      display: inline-block; } }
+      display: inline-block;
+      color: white; } }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 412px) {
   div.hero {
     width: 100%;
     background-size: 1000px Auto;
@@ -1385,7 +1399,7 @@ a.special-hover:hover:after {
   div.hero {
     background-position: left 48% center; } }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 412px) {
   h1.special {
     font-size: 2em;
     word-wrap: break-word; } }
@@ -1398,13 +1412,14 @@ a.special-hover:hover:after {
   .burger {
     font-size: 30px;
     cursor: pointer;
-    display: inline-block; } }
+    display: inline-block;
+    color: white; } }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .closebtn {
     top: 20px !important; } }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 412px) {
   body {
     padding-top: 0px; } }
 
@@ -1450,12 +1465,12 @@ a.special-hover:hover:after {
   font-weight: 100 !important;
   font-size: 40px !important; }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 412px) {
   .closebtn {
     font-size: 40px !important;
     top: 15px;
     right: 35px; } }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 412px) {
   overlay a {
     font-size: 20px; } }

@@ -38,17 +38,17 @@
 	<div class="container">
 		<header class="col12">
 			<br><br><br><br><br>
-			<h2 class="special"><span>Contribution</span></h2>
+			<h2 class="special secondary"><span>Contribution</span></h2>
 		</header>
-		<div class="col5 one-third-tab align-right">
+		<div class="col5 one-third-tab align-right mobile-hide">
 			<p><b>Build</b></p>
 			<p><b>Core Work</b></p>
 			<p><b>Deliverables</b></p>
 		</div>
 		<div class="col6 two-third-tab align-left">
-			<p>{{$ctrl.languages}}</p>
-			<p>{{$ctrl.contribution}}</p>
-			<p>{{$ctrl.deliverables}}</p>
+			<p><span class="mobile-reveal"><b>Build: </b></span>{{$ctrl.languages}}</p>
+			<p><span class="mobile-reveal"><b>Core Work: </b></span>{{$ctrl.contribution}}</p>
+			<p><span class="mobile-reveal"><b>Deliverables: </b></span>{{$ctrl.deliverables}}</p>
 			<p class="hard-copy"><a href="{{$ctrl.url}}" class="button inline-block">View Project</a><a href="#/" class="special-hover inline-block twenty-left">View Other Work</a></p>
 		</div>
 	</div>

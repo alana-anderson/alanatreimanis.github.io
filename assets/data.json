@@ -14,7 +14,7 @@
     "summaryTwo": "Investment Jobs, career opportunities and jobs postings on Trusted Insight. This career platform for institutional investors was created to aid in user discovery of  investment jobs, talent, alternative investment news, syndicates and top investment managers rankings.",
     "contribution": "Social Network, News & Video, Jobs, Accounts & Subscriptions, Events, Catalogue",
     "deliverables": "Website, Research, User Interface & Experience",
-    "languages": "Python, Django, Javascript, HTML5, CSS3, AJAX, JSON",
+    "languages": "Python, Django, Javascript, HTML5, CSS3, AJAX, JSON, Bootstrap",
     "displayOrder": 3
   },
   {
@@ -26,13 +26,13 @@
     "logoPictureUrl": "",
     "conceptPictureUrl": "crm-info.png",
     "extraPictureUrl": "crm-diagram.png",
-    "url":"",
+    "url":"/",
     "about": "From a startup with zero income to $15,000/month in subscriptions, the staff quickly realized the need for a tool to help manage job posts, user subscriptions and overall user relationships. So we build our own native customer relations management tool. Hurray!",
     "summaryOne": " I researched other CRMs and discovered what worked and what didn’t work for the staff. Staff user experience tests came in handy in creating features that never existed in the realm of current CRMs. Growing strong, the Trusted Insight staff still uses this tool today.",
     "summaryTwo": "",
     "contribution": "Customer Service, Staff Tasks, Sales Productivity",
     "deliverables": "Website, Research, User Interface & Experience",
-    "languages": "Python, Angular, Javascript, HTML5, CSS3, AJAX, JSON",
+    "languages": "Python, Angular, Javascript, HTML5, CSS3, AJAX, JSON, Bootstrap",
     "displayOrder": 3
   },
   {
@@ -62,6 +62,7 @@
     "logoPictureUrl": "",
     "conceptPictureUrl": "ground-info.png",
     "extraPictureUrl": "ground-secondary.png",
+    "url": "/",
     "about": "Coming Soon: Ground provides visitors with reviews of the best artisan coffee grounds for the coffee lover community at large. Discovered a new blend? Write a review about it and tell the world. Or maybe you just wanted to catch up on the latest reviews from your local baristas. Ground is your one stop for all things artisan coffee.",
     "summaryOne": "Sure, I consider myself to be a coffee snob. So I teamed up with some like-minded developer friends to build a space where artisan coffee lovers can join in on the fun. The challenge was creating a visual design that communicates the value of the artisan coffee craft to the laid-back masses. Gathering barista insights with research and analytical data to create a visual design and the overall user persona flow.",
     "summaryTwo": "",
@@ -79,6 +80,7 @@
     "logoPictureUrl": "",
     "conceptPictureUrl": "",
     "extraPictureUrl": "",
+    "url":"https://github.com/alanatreimanis/frontend-news-list",
     "about": "The developer is to grab the list news articles and host. This is designed to test the developer in their attention to detail, skill and understanding of standards based development. This test looks to best practices and proper project structuring. Checkout the repository and serve up the results.",
     "summaryOne": "",
     "summaryTwo": "",

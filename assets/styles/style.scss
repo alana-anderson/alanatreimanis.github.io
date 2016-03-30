@@ -60,12 +60,15 @@ a.button:hover {
 /**** TYPOGRAPHY *****/
 h1,h2,h3,h4,h5,h6{ font-family: 'Open Sans', sans-serif; }
 h2.special{
-    border-top: 1px solid #222;
-    color: #222;
-    font: 800 20px/20px 'open sans';
-    margin: 0 0 20px 0;
-    text-align: center;
-    text-transform: uppercase;
+  border-top: 1px solid #222;
+  color: #222;
+  font: 800 20px/20px 'open sans';
+  margin: 0 0 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2.special.secondary{
+  border: none;
 }
 h1.special {
     color: #222;
@@ -1179,7 +1182,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
       background: #654E75;
   }
 
-$phone: "only screen and (max-width : 375px)";
+$phone: "only screen and (max-width : 412px)";
 $tablet: "(min-width: 768px) and (max-width: 1023px)";
 $desktop: "(min-width: 1024px)";
 
@@ -1207,6 +1210,17 @@ footer .align-left{
     text-align: center!important;
   }
 }
+.mobile-hide{
+  @media #{$phone} {
+    display: none;
+  }
+}
+.mobile-reveal{
+  display: none;
+  @media #{$phone} {
+    display: block;
+  }
+}
 .burger {display: none;}
 header#top{
   @media #{$phone} {
@@ -1218,6 +1232,7 @@ header#top{
       font-size:30px;
       cursor:pointer;
       display: inline-block;
+      color: white;
     }
   }
 }
@@ -1248,6 +1263,7 @@ h1.special{
     font-size:30px;
     cursor:pointer;
     display: inline-block;
+    color: white;
   }
 }
 .closebtn{
