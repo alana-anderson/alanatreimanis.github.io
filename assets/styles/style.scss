@@ -23,7 +23,10 @@ html, body { background: #f0f0f0; }
 .align-center { text-align: center;}
 .inline-block { display: inline-block; }
 .twenty-left { margin-left: 20px; }
-a { text-decoration: none; }
+a { 
+  text-decoration: none; 
+  color: #7A1A8B;
+}
 a:active {
   color: #bc6a9d;
 }
@@ -1142,45 +1145,43 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .nav-align {
-    
   a.item {
-      display: inline-block;
-      position: relative;
-      padding-bottom: 4px;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 4px;
   }
   a.item:after {
-      content: '';
-      display: block;
-      margin: auto;
-      height: 2px;
-      width: 0px;
-      background: transparent;
-      transition: width .3s ease, background-color .3s ease;
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .3s ease, background-color .3s ease;
   }
   a.item:hover:after {
-      width: 100%;
-      background: white;
+    width: 100%;
+    background: white;
   }
 }
-
-  a.special-hover {
-      display: inline-block;
-      position: relative;
-      padding-bottom: 4px;
-  }
-  a.special-hover:after {
-      content: '';
-      display: block;
-      margin: auto;
-      height: 2px;
-      width: 0px;
-      background: transparent;
-      transition: width .3s ease, background-color .3s ease;
-  }
-  a.special-hover:hover:after {
-      width: 100%;
-      background: #654E75;
-  }
+a.special-hover {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 4px;
+}
+a.special-hover:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .3s ease, background-color .3s ease;
+}
+a.special-hover:hover:after {
+    width: 100%;
+    background: #654E75;
+}
 
 $phone: "only screen and (max-width : 412px)";
 $tablet: "(min-width: 768px) and (max-width: 1023px)";
