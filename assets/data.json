@@ -88,5 +88,23 @@
     "deliverables": "Design, Research, User Interface & Experience, Application",
     "languages": "Node, Express, EJS, Javascript, HTML5, CSS3, AJAX, JSON, GULP",
     "displayOrder": 3
+  },
+  {
+    "id": "6",
+    "title": "RSVP",
+    "subTitle": "Easy wedding RSVP",
+    "mainPictureUrl": "wedding-front-portfolio.png",
+    "demoPictureUrl": "wedding-flat-main.png",
+    "logoPictureUrl": "",
+    "conceptPictureUrl": "wedding-info.png",
+    "extraPictureUrl": "",
+    "url":"https://github.com/alanatreimanis/ease-wedding-rsvp",
+    "about": "Two of my very good friends are getting married, YAY! Who doesn't love a wedding?! This beautiful web application was designed by the very talented designer groom & bride team (Should you want to work with them, contact me. I'll introduce you), who asked me to build and bring it to life.",
+    "summaryOne": "The goal was to basically go paperless and make life easier for the bride and groom. Guests wouldn't need to bother sending rsvp cards via snail mail. The bride and groom would recieve an email alerting them of a guests status instantly, making wedding planning a little easier.",
+    "summaryTwo": "",
+    "contribution": "Development, Testing, End Build",
+    "deliverables": "Website, User Interface & Experience, Application",
+    "languages": "Node, PHP, Javascript, HTML5, SASS, Grunt, Bootstrap",
+    "displayOrder": 3
   }
 ]
